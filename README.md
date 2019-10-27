@@ -1,5 +1,5 @@
 # NotifyApp_Django
-<h3><i>This is my simple blog post WebApp </i></h3>
+<h3 style="color: red"><i>This is my simple blog post WebApp </i></h3>
 <ol>
    <li>Highlights of this WebApp</li>
       <ol type="i">
@@ -8,13 +8,13 @@
          <li>user or visitor of the app can easily contact through the form to the admin or owner to the website</li>
    </ul>
 </ul>
-<h2>This is some screenshort of WebApp</h2>
+<h2> Some Screenshort of WebApp</h2>
 
 ![Repo List](screenshort2.png)
 
 
 
 
-<h2>2This is footer</h2>
+<h2> Footer of this WebApp /h2>
 
 ![Repo List](screenshort1.png)
