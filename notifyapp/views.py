@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from .models import *
+from .models import Post, Contact
 
 def index(request):
     data = Post.objects.all().order_by('-id')
@@ -14,4 +14,7 @@ def contact(request):
         databs = Contact(user_name=name, user_email=email, user_phone=phone, user_desc=desc)
         databs.save()
     return render(request, 'notifyapp/contact.html')
+
+def about(request):
+    return render(request, 'notifyapp/about.html')
     
