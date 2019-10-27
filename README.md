@@ -7,11 +7,11 @@
     In Contact form user can send a message to admin/owner's app.
 
 <h1>This is some screenshort of WebApp</h1>
-<center>
-![Repo List](screenshort.png)
-   </center>
+![Repo List](screenshort2.png)
 
 
 
-<h3>This is footer</h3><br/>
+
+<h3>This is footer</h3>
+
 ![Repo List](screenshort1.png)
