@@ -10,7 +10,7 @@
          <li>user or visitor of the app can easily contact through the form to the admin or owner to the website</li>
    </ul>
 </ul>
-<h2> Some Screenshort of WebApp</h2>
+<h1> Some Screenshort of WebApp</h1>
 
 ![Repo List](Screenshort1.png)
 
@@ -18,6 +18,6 @@
 
 <br/><br/>
 <hr/>
-<h2> Footer of this WebApp </h2>
+<h1> Footer of this WebApp </h1>
 
 ![Repo List](Screenshort2.png)
