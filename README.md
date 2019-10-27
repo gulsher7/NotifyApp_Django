@@ -1,7 +1,7 @@
 # NotifyApp_Django
 <h3 style="color: red"><i>This is my simple blog post WebApp </i></h3>
 <ol>
-   <li>Highlights of this WebApp</li>
+   <li>Highlights <span style="color: red;">of</span> this WebApp</li>
       <ol type="i">
          <li>I used <strong>Bootstrap 4</strong> to make webApp fully responsive</li>
          <li>you can easily post blog from database and show to the html page example title, descrption and also a images.</li>
