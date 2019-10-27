@@ -15,6 +15,6 @@
 
 
 
-<h32This is footer</h2>
+<h2>2This is footer</h2>
 
 ![Repo List](screenshort1.png)
