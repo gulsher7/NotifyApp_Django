@@ -12,11 +12,11 @@
 </ul>
 <h2> Some Screenshort of WebApp</h2>
 
-![Repo List](Screenshort3.png)
+![Repo List](Screenshort1.png)
 
 
 
 
 <h2> Footer of this WebApp </h2>
 
-![Repo List](Screenshort4.png)
+![Repo List](Screenshort2.png)
