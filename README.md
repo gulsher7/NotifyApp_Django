@@ -4,10 +4,10 @@
 <ol>
    <strong><li>Highlights of this WebApp</li></strong>
       <ol type="i">
-         <li>I used <strong><i>Bootstrap 4</i></strong> to make webApp fully responsive</li>
-         <li>you can easily post blog from database and show to the html page. For example:- <br/> 
+         <li> I used <strong><i>Bootstrap 4</i></strong> to make webApp fully responsive</li>
+         <li> You can easily post blog from database and show to the html page. For example:- <br/> 
             Title, Descrption and also a images.</li>
-         <li>user or visitor of the app can easily contact through the form to the admin or owner to the website</li>
+         <li> User or visitor of the app can easily contact through the form to the admin or owner to the website</li>
    </ul>
 </ul>
 <h1> Some Screenshort of WebApp</h1>
