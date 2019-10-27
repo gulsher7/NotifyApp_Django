@@ -1,6 +1,6 @@
 # NotifyApp_Django
 <h2>This is Open Source weBApp</h2><br/>
-<h3><i>This is my simple blog post WebApp </i></h3>
+<h3><i>It is simple blog post WebApp </i></h3>
 <ol>
    <li>Highlights of this WebApp</li>
       <ol type="i">
