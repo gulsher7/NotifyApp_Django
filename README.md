@@ -7,5 +7,5 @@
     In Contact form user can send a message to admin/owner's app.
     
 
-![Repo List](AppPic.png)
-![Repo List](AppPic2.png)
+![Repo List](screenshort1.png)
+![Repo List](screenshort2.png)
