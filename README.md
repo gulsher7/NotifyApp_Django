@@ -7,4 +7,4 @@
     In Contact form user can send a message to admin/owner's app.
     
 
-![picture](https://github.com/gulsher7/NotifyApp_Django/tree/master/notifyapp/static/notifyapp/images/0005.png)
+![Repo List](Screenshort.jpeg)
