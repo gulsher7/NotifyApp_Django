@@ -2,7 +2,7 @@
 <h2>This is Open Source weBApp</h2><br/>
 <h3><i>It is simple blog post WebApp </i></h3>
 <ol>
-   <li>Highlights of this WebApp</li>
+   <strong><li>Highlights of this WebApp</li></strong>
       <ol type="i">
          <li>I used <strong>Bootstrap 4</strong> to make webApp fully responsive</li>
          <li>you can easily post blog from database and show to the html page. For example:- <br/> 
