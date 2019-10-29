@@ -5,17 +5,17 @@
   {% block body %}
 
     <!-- main section start -->
-    <div class="container jumbotron ">
+    <div class="container jumbotron mt-5" style="max-width: 100%; background-image: url({% static 'notifyapp/images/wall1.jpg' %}")>
 
       {% if data %}
         {% for detail in data %}
           <center>
-          <div class="card">
-            <div class="card-body">
-              <p class="card-title "><span class="float-left text-uppercase"><strong>{{ detail.title }}</strong></span> <span class="float-right" style="font-size: 0.6em;">{{ detail.tdate }}</span></p><br/>
-              <p class="card-text text-justify"><i>{{ detail.desc }}</i></p>
+          <div class="card" style="width: 70%">
+            <div class="card-body bg-light">
+              <p class="card-title " style="font-family: Lobster; font-size: 1.2em;"><span class="float-left text-uppercase"><strong>{{ detail.title }}</strong></span> <span class="float-right" style="font-size: 0.7em;">{{ detail.tdate }}</span></p><br/>
+              <p class="card-text text-justify">{{ detail.desc }}</p>
               {% if detail.pic %}
-                <div><img src="{{detail.pic.url}}" class="img-fluid"></div>
+                <img src="{{detail.pic.url}}" class="img-fluid zoom">
               </div>
             </div>
             <br/>

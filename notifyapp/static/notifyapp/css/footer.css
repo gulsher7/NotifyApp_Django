@@ -1,5 +1,8 @@
-@media (min-width: 550px) {
+*{
+  margin: 0;
+  padding: 0
 }
+
 
 
 h2{
@@ -243,4 +246,21 @@ footer {
   .footer-bottom-wrapper {
     font-size: 1.3em;
   }
+}
+
+
+
+
+.zoom {
+  padding: 50px;
+  transition: transform .2s;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
 }

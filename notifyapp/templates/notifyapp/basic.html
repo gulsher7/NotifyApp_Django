@@ -11,6 +11,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
   </head>
   <body>
      <!-- Header -->
@@ -24,18 +25,18 @@
   <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
       <li class="nav-item active">
-        <a class="nav-link text-primary" href="{% url 'index' %}">HOME <span class="sr-only">(current)</span></a>
+        <a class="nav-link text-primary" href="{% url 'index' %}" style="font-family: Lobster;">HOME <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-primary" href="{% url 'contact' %}" style="color: blue;">CONTACT</a>
+        <a class="nav-link text-primary" href="{% url 'contact' %}" style="color: blue; font-family: Lobster;">CONTACT</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-primary" href="{% url 'about' %}" style="color: blue;">ABOUT</a>
+        <a class="nav-link text-primary" href="{% url 'about' %}" style="color: blue; font-family: Lobster;">ABOUT</a>
       </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">
       <input class="form-control mr-sm-2" type="search" placeholder="Search">
-      <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
+      <button class="btn btn-outline-primary my-2 my-sm-0" type="submit" style="font-family: Lobster;">Search</button>
     </form>
   </div>
 </nav>
@@ -51,16 +52,16 @@
 
       <ul class="footer-list-top mt-2">
           <li id='help'>
-            <h4 style="color: white">PIKACHU</h4>
+            <h4 style="color: white; font-family: Lobster;">PIKACHU</h4>
           <img src="{% static 'notifyapp/images/dancingpikachu.gif' %}" alt="ICFAI LOGO" width="40%" height="15%" class="img-fluid mt-4">
 
           </li>
 
         </ul>
 
-        <ul class="footer-list-top mt-5">
+        <ul class="footer-list-top mt-3">
           <li>
-            <h4 style="color: white">FOLLOW US</h4>
+            <h4 style="color: white; font-family: Lobster;">FOLLOW US</h4>
             <section class="footer-social-section flex-rw mt-5">
               <span class="footer-social-overlap footer-social-icons-wrapper">
                 <a href="https://www.facebook.com/gulsher.ansari.10" class="generic-anchor" target="_blank" title="Facebook" itemprop="significantLink"><i class="fa fa-facebook"></i></a>
@@ -75,14 +76,14 @@
 
          <ul class="footer-list-top mt-2">
           <li id='help'>
-            <h4 style="color: white">PYSDUCK</h4>
-          <img src="{% static 'notifyapp/images/psyduck.gif' %}" alt="ICFAI LOGO" width="30%" height="15%" class="img-fluid">
+            <h4 style="color: white; font-family: Lobster;">PYSDUCK</h4>
+          <img src="{% static 'notifyapp/images/psyduck.gif' %}" alt="ICFAI LOGO" width="30%" height="15%" class="img-fluid zoom">
 
           </li>
 
         </ul>
 
-        <p style="color: white" class="mx-auto">Copyright © <a href="https://www.instagram.com/gulsher_khan7/" title="Instagram">Gulsher</a> All rights reserved.
+        <p style="color: white; font-family: Lobster;" class="mx-auto">Copyright © <a href="https://www.instagram.com/gulsher_khan7/" title="Instagram">Gulsher</a> All rights reserved.
         </p>
       </footer>
 
