@@ -5,8 +5,8 @@
   {% block body %}
 
     <!-- main section start -->
-    <div class="container jumbotron mt-5" style="max-width: 100%; background-image: url({% static 'notifyapp/images/wall1.jpg' %}")>
-
+  
+        <div class="jumbotron" style = "margin-bottom: -1px;background-image: url({% static 'notifyapp/images/wall1.jpg' %}")>
       {% if data %}
         {% for detail in data %}
           <center>
@@ -24,6 +24,7 @@
         {% endfor %}
       {% endif %}
     </div>
+  
     <!-- main section end -->
 
     {% endblock %}
