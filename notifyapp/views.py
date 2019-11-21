@@ -1,5 +1,6 @@
 from django.shortcuts import render
 from .models import Post, Contact
+from django.http import HttpResponse
 
 def index(request):
     data = Post.objects.all().order_by('-id')
@@ -17,4 +18,7 @@ def contact(request):
 
 def about(request):
     return render(request, 'notifyapp/about.html')
+
+def notify(request):
+    return HttpResponse("Hello Notify")
     
