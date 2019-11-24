@@ -1,35 +1,45 @@
 {% extends 'notifyapp/basic.html' %}
-{% block title %}Contact{% endblock%}
+{% block title %}Developer{% endblock%}
 {% load static %}
 {% block body %}
+<div class="container">
+  <div class="jumbotron">
+    <p>Hello! I'm Gulsher. I'm a Web Developer. I develop Web apps and Android apps</p>
+    <div class="container">
+      <h4>I use resources to create a website</h4>
+      <ol>
+        <li>For Frontend
+          <ol type="i">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>BootStrap</li>
+            <li>JavaScript</li>
+          </ol>
+        </li>
+        <br/>
 
-<div class="img-fluid" style="background-repeat: no-repeat; background-position: bottom top;background-image: url({% static 'notifyapp/images/mail.png' %}")>
-<div class="container-fluid mt-3">
-<div class="container w-50"><br/>
-  <h3 class="text-danger text-center">Contact Us</h3>
-  <form action="http://127.0.0.1:8000/contact/" method="post"> {% csrf_token %}
-
-    <div class="form-group">
-      <label for="name" class="text-danger font-weight-bold">Name</label>
-      <input type="text" class="form-control" id="name" name='name' placeholder="Enter Your Name">
-      
+        <li>For Backend
+          <ol type="i">
+            <li>Django</li>
+            <li>Flask</li>
+            <li>Python</li>
+            <li>MySQL</li>
+          </ol>
+        </li>
+                <br/>
+        <li>For Android/iOS
+        <ol type="i">
+        <li>Flutter</li>
+        </ol>
+        </li>
+      </ol>
+      <br/>
+      <i>
+      <p>Contact me to make a responsive website or android app.</p>
+      <p><i class="fa fa-envelope" aria-hidden="true"> gulsherkhan0005@gmail.com</i></p>
+      <p><i class="fa fa-phone-square" aria-hidden="true"> +91 9996729701 </i></p>
+    </i>
     </div>
-    <div class="form-group">
-      <label for="name" class="text-danger font-weight-bold">Email</label>
-      <input type="email" class="form-control" id="email" name='email' placeholder="Enter Your Email">
-    </div>
-    <div class="form-group">
-      <label for="name" class="text-danger font-weight-bold">Phone</label>
-      <input type="tel" class="form-control" id="phone" name='phone' placeholder="Enter Your Phone Number">
   </div>
-
-    <div class="form-group">
-      <label for="desc" class="text-danger font-weight-bold">How May We Help You?</label>
-      <textarea class="form-control" id="desc" name='desc' rows="3"></textarea>
-    </div>
-    <button type="submit" class="btn btn-success mb-3">Send Mail <i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
-  </form>
-</div>
-</div>
 </div>
 {% endblock %}
